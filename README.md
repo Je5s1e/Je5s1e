@@ -9,7 +9,7 @@
 
 I am an M.S. student in Software Engineering at [Shenzhen University](https://www.szu.edu.cn/). Previously, I was a research intern at Ant Group's Technology Research Institute. I build **LLM agents for real-world code repositories**, with a focus on **context engineering, tool use, multi-agent orchestration, and reliable execution**. My current work applies these ideas to Rust code generation and verification in the [Asterinas](https://github.com/asterinas) ecosystem.
 
-I am interested in how agents turn a task into a working change: retrieving relevant context, planning edits, calling tools, learning from execution feedback, and checking the result. My work spans both **agent workflow engineering** and **research on repair decisions and output quality**.
+I am interested in how agents turn a task into a working change: retrieving relevant context, planning edits, calling tools, learning from execution feedback, and checking the result. My work spans both **agent workflow engineering** and **research on repair decisions and output quality**. I am also interested in **evaluating the quality of agent-generated code and formal specifications**, including code correctness, specification completeness, and alignment with intended behavior.
 
 ### Building reliable agents
 
@@ -25,12 +25,12 @@ I am interested in how agents turn a task into a working change: retrieving rele
 
 - **[KVerus Skills](https://github.com/asterinas/KVerus/tree/main/skills)** — **Agent workflow engineering during my internship at Ant Group.** Contributed reusable skills that connect repository context retrieval, Rust-to-Verus migration, proof generation, and iterative repair through verifier feedback. The workflow also incorporates post-processing review gates and semantic auditing for Asterinas kernel verification.
 - **[StarVerus](https://github.com/Je5s1e/KDD26-ADS-StarVerus)** — **Multi-agent generation and repair.** First-author work accepted to **SIGKDD 2026**. Builds repository context from caller/callee relationships, aligns generated contracts, and coordinates Planner, Repairer, Actor, and Rewriter roles within a bounded verification-and-repair loop.
-- **Beyond Benchmarks** — **Understanding agent failures in real repositories.** Third-author work accepted to **ASE 2026**. Studies how repository dependencies and semantic modeling affect coding agents, why verifier diagnostics can diverge from root causes, and how iterative repair can stagnate or regress.
+- **[Beyond Benchmarks](https://conf.researchr.org/details/ase-2026/ase-2026-industry-showcase/42/Beyond-Benchmarks-A-Case-Study-of-LLM-Generated-Verus-Specification-Failures-on-Aste)** — **Understanding agent failures in real repositories.** Third-author work accepted to **ASE 2026**. Studies how repository dependencies and semantic modeling affect coding agents, why verifier diagnostics can diverge from root causes, and how iterative repair can stagnate or regress.
 - **[Large Language Models for Multilingual Code Intelligence: A Survey](https://arxiv.org/abs/2604.25960)** — First-author survey accepted to **KSEM 2026**, covering multilingual code generation, translation, retrieval-augmented generation, multi-agent methods, and trustworthy evaluation.
 
 ### Research interests
 
-`Coding Agents` · `Context Engineering` · `Tool Use` · `Multi-Agent Systems` · `Agent Skills` · `Feedback-Driven Repair` · `Agent Evaluation` · `RAG`
+`Coding Agents` · `Context Engineering` · `Tool Use` · `Multi-Agent Systems` · `Agent Skills` · `Feedback-Driven Repair` · `Agent Evaluation` · `Code & Specification Quality` · `RAG`
 
 ### Tools I work with
 
